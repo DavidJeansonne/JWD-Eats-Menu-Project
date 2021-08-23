@@ -1,0 +1,224 @@
+<!-- Declare the document type and opening HTML element. -->
+<!DOCTYPE html>
+
+
+  <html>
+<!-- Add a head element and set the page title.
+     We will edit the CSS later.
+     Close the head element. -->
+    <head>
+      <title>Yummy Pizza Delivery</title>
+      <meta description="The best Pizza in Town">
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    </head> 
+
+
+
+
+<!-- Add a body element. -->
+    <body>
+
+
+<!-- Create a nav element.
+     Within the nav element, create and unordered list.
+     Each list item needs to be an anchor element, or link, one for each of the following:
+     "Starters", "Extras", "Dinner", "Specials", and "Contact".
+     Give each anchor element a href like the following:
+     "#starters", "#extras", "#dinner", "#specials", and "#contact". -->
+      <nav>
+        <ul>
+          <li><a href="#starters">Starters</a></li>
+          <li><a href="#extras">Extras</a></li>
+          <li><a href="#dinner">Dinner</a></li>
+          <li><a href="#specials">Specials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+
+<!-- Create a header element.
+     Within the header, add a heading1 with the phrase "JWD Eats &amp; Cheers". -->
+    <header>
+      <h1>JWD Eats &amp; Cheers</h1>
+    </header>
+
+<!-- Create a main element.
+     Within the main element, add a section element with an id called "about". 
+     In the section element, create a paragraph describing JWD Eats & Cheers.
+     Close the section and main elemnets. -->
+    <main>
+      <section id="about">
+        <p>
+          JWD Eats & Cheers is the best!!!
+        </p>
+      </section>
+    </main>
+    
+
+
+<!-- Add a line break. -->
+<br>
+
+
+<!-- Create a section element with an id called "menu".
+     Within the section, add a heading2 with text like "Our Menu", be creative.
+     Close the section element. -->
+    <section id="menu">
+      <h2>Our Cool Menu</h2>
+    </section>
+
+
+<!-- Add a line break. -->
+    <br>
+
+
+<!-- Create a section element with an id called "starters".
+     Within the section, add a heading3 with the phrase "Starters".
+     After the heading, create a table with 2 columns and 8 rows.
+     Add the following to the table element:  border="0" cellspacing="5" cellpadding="5"
+     In each of the left column table data elements, add a heading4 with food title of your choice.
+     Add your name and give it some flair! Example: "David's Bogus Burger".
+     Add an image from the image pool just before closing the paragraph element.
+     Add a paragraph describing the food, limit it to 10 words.
+     In each of the corresponding right column data elements, add a span element and a price like "$10".
+     Close the table and the section. --> 
+    <section id="starters">
+      <h3>Starters</h3>
+      <table border="0" cellspacing="5" cellpadding="5">
+        <tr>
+          <td>
+            <h4>Pelmeni</h4>
+            <p>Russian raviolli with meat.
+              <img src="./pelmeni.jpeg">
+            </p>
+          </td>
+          <td>
+            <span>$10</span>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h4>Chicken 65</h4>
+            <p>Traditional Indo-Pak dish deep-fried with many spices.</p>
+          </td>
+          <td><span>$12</span></td>
+        </tr>
+        <tr>
+          <td>
+            <h4>Currykatsu</h4>
+            <p>Japanese style curry with rice, pickles and pork fritter.</p>
+          </td>
+          <td><span>$16</span></td>
+        </tr>
+        <tr>
+          <td>
+            <h4>Gizzards</h4>
+            <p>American southern dish deep fried, chicken, irony.</p>
+          </td>
+          <td><span>$12</span></td>
+        </tr>
+        <tr>
+          <td>
+            <h4>Kitfo</h4>
+            <p>Ethiopian Food Beef with Chees.</p>
+          </td>
+          <td><span>$11</span></td>
+        </tr>
+        <tr>
+          <td>
+            <h4>Moussaka</h4>
+            <p>Traditional Bulgarian dish made with potatoes,  ground beef and topped with creamy béchamel sauce.</p>
+          </td>
+          <td><span>$14</span></td>
+        </tr>
+        <tr>
+          <td>
+            <h4>Peas</h4>
+            <p>Green vegetable.</p>
+          </td>
+          <td><span>$5</span></td>
+        </tr>
+        <tr>
+          <td>
+            <h4>Sambuusa</h4>
+            <p>Somali baked pastry with spicedmeat filling</p>
+          </td>
+          <td><span>$9</span></td>
+        </tr>
+      </table>
+    </section>
+
+     
+<!-- Add a line break. -->     
+   <br>
+
+
+<!-- Create a section element with an id called "extras".
+     Within the section, add a heading3 with the phrase "Extras".
+     After the heading, create a table with 2 columns and 1 row.
+     In the each table data elements, add an unordered list with 8 list item elements.
+     The left column list will contain 8 food titles of your choice.
+     Add your name and give it some flair! Example: "David's Bogus Burger".
+     In each of the corresponding right column data elements, add a paragraph element and a price like "$10".
+     Close the table and the section. --> 
+     
+
+
+<!-- Add a line break. --> 
+
+
+
+<!-- Create a section element with an id called "dinner".
+     Within the section, add a heading3 with the phrase "Dinner".
+     After the heading, create a table with 2 columns and 8 rows.
+     In each of the left column table data elements, add a heading4 with food title of your choice.
+     Add your name and give it some flair! Example: "David's Bogus Burger".
+     Add a paragraph describing the food, limit it to 10 words.
+     Add an image from the image pool just before closing the paragraph element.
+     In each of the corresponding right column data elements, add a span element and a price like "$10".
+     Close the table and the section. -->     
+
+
+
+<!-- Add a line break. --> 
+
+
+
+<!-- Create a section element with an id called "specials".
+     Within the section, add a heading3 with the phrase "Specials".
+     After the heading, create a table with 2 columns and 8 rows.
+     In each of the left column table data elements, add a heading4 with food title of your choice.
+     Add your name and give it some flair! Example: "David's Bogus Burger".
+     Add a paragraph describing the food, limit it to 10 words.
+     Add an image from the image pool just before closing the paragraph element.
+     In each of the corresponding right column data elements, add a span element and a price like "$10".
+     Close the table and the section. --> 
+
+
+
+<!-- Add a line break. --> 
+<br>
+
+
+<!-- Create a footer element with an id called "contact".
+     Within the footer element, add a heading2 with the phrase "Contact Us". 
+     Add a paragraph for a phone number and another for an email and link them using the following information: 
+     (555)-555-5555 & menu@JWDEatsAndCheers.com 
+     Create a form with an input for a first name and another for a last name, include a submit button.
+     Add a paragraph explaining the submit button will contact our store!
+     Add one last paragraph and add "Created by: " and add your name! You did it!
+     Close all remaining elements. --> 
+    <footer id="contact">
+      <h2>Contact Us</h2>
+      <p>(555)-555-5555</p>
+      <p>menu@JWDEatsAndCheers.com</p>
+      <form>
+        <label for="name"></label>
+        <input type="text" name="name">
+        <input type="submit" name="name">
+      </form>
+    </footer>
+
+     </html>
